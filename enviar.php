@@ -1,13 +1,6 @@
 <?php
 
 
-
-// Datos del email
-$para = 'rayo862@hotmail.com';
-$titulo = 'S&S Solicitud de presupuesto';
-$header = 'From: ' . $email;
-$msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
-
 if (isset($_POST['submit'])) {
     // Datos del email
     $to         = 'rayo862@hotmail.com';
