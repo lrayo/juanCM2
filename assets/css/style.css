@@ -42,6 +42,12 @@ section .container .owl-nav{
 
 /*--------------------- site content -------------------*/
 
+/*--------------------- services icons spacing -------------------*/
+.callout .fa-apple {
+    margin-right: 20px;
+}
+/*------------x--------- services icons spacing --------x-----------*/
+
 /*--------------------- language selector -------------------*/
 .language-selector {
     position: relative;
