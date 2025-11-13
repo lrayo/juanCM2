@@ -42,6 +42,45 @@ section .container .owl-nav{
 
 /*--------------------- site content -------------------*/
 
+/*--------------------- language selector -------------------*/
+.language-selector {
+    position: relative;
+}
+
+.language-selector a {
+    position: relative;
+    display: inline-block;
+}
+
+.language-selector img {
+    display: block;
+}
+
+/* Óvalo azul que indica el idioma activo */
+.language-selector::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 179, 254, 0.6);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Cuando español está activo - óvalo sobre "Sp" (derecha) */
+.lang-sp-active::before {
+    right: 8px;
+}
+
+/* Cuando inglés está activo - óvalo sobre "En" (izquierda) */
+.lang-en-active::before {
+    left: 8px;
+}
+/*------------x--------- language selector --------x-----------*/
+
 /*--------------------- footer legal links -------------------*/
 .footer-legal-links {
     margin-top: 15px;
