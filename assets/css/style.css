@@ -44,11 +44,18 @@ section .container .owl-nav{
 
 /*--------------------- footer legal links -------------------*/
 .footer-legal-links {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .footer-legal-links li {
-    margin: 5px 0;
+    margin: 0 10px;
+    padding: 0 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-legal-links li:last-child {
+    border-right: none;
 }
 
 .footer-legal-links a {
@@ -61,6 +68,14 @@ section .container .owl-nav{
 .footer-legal-links a:hover {
     color: #00b3fe;
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-legal-links li {
+        margin: 5px 5px;
+        padding: 0 5px;
+        font-size: 11px;
+    }
 }
 
 /* Modal legal content styles */
