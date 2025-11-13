@@ -41,3 +41,59 @@ section .container .owl-nav{
 /*------------x--------- blog carousel --------x-----------*/
 
 /*--------------------- site content -------------------*/
+
+/*--------------------- footer legal links -------------------*/
+.footer-legal-links {
+    margin-top: 10px;
+}
+
+.footer-legal-links li {
+    margin: 5px 0;
+}
+
+.footer-legal-links a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-legal-links a:hover {
+    color: #00b3fe;
+    text-decoration: underline;
+}
+
+/* Modal legal content styles */
+.modal-legal-content {
+    max-height: 400px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.modal-legal-content h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-legal-content h4 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modal-legal-content p, .modal-legal-content ul {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.modal-legal-content ul {
+    padding-left: 20px;
+}
+
+.modal-legal-content ul li {
+    margin-bottom: 8px;
+}
+/*------------x--------- footer legal links --------x-----------*/
